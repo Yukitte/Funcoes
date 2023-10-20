@@ -5,40 +5,40 @@ char* num(int dia) {
     switch (dia)
     {
     case 1:
-        return "Janeiro";
+        return "Janeiro - 31 dias" ;
         break;
     case 2:
-        return "Fevereiro";
+        return "Fevereiro - 28 dias";
         break;
     case 3:
-        return "Março";
+        return "Março - 31 dias";
         break;
     case 4:
-        return "Abril";
+        return "Abril - 30 dias";
         break;
     case 5:
-        return "Maio";
+        return "Maio - 31 dias";
         break;
     case 6:
-        return "Junho";
+        return "Junho - 30 dias";
         break;
     case 7:
-        return "Julho";
+        return "Julho - 31 dias";
         break;
     case 8:
-        return "Agosto";
+        return "Agosto - 31 dias";
         break;
     case 9:
-        return "Setembro";
+        return "Setembro - 30 dias";
         break;
     case 10:
-        return "Outubro";
+        return "Outubro - 31 dias";
         break;
     case 11:
-        return "Novembro";
+        return "Novembro - 30 dias";
         break;
     case 12:
-        return "Dezembro";
+        return "Dezembro - 31 dias";
         break;
     
     default:
@@ -54,7 +54,7 @@ int main() {
     scanf("%d", &x);
 
     mes = num(x);
-    printf("O mes é: %s\n", mes);
+    printf("O mes e os dias são: %s\n", mes);
 
     return 0;
 }
